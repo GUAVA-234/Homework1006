@@ -2,7 +2,7 @@
 
 int main(){
 for(int i=1;i<=5;i++){
-		for(int j=5;j>=i;j--){
+		for(int j=4;j>=i;j--){
 			printf(" ");
 		}
 		for(int a=0;a<(i*2)-1;a++){
