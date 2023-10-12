@@ -28,11 +28,8 @@ void C()
 }
 void S()
 {
-int i, j;
-
-
-    for (i = 0; i < 7; i++) {
-        for (j = 0; j < 7; j++) {
+    for (int i = 0; i < 7; i++) {
+        for (int j = 0; j < 7; j++) {
             if ((i == 0 || i == 3 || i == 6) && j < 6) {
                 printf("*");
             } else if ((i > 0 && i < 3) && (j == 0)) {
